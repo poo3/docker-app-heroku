@@ -1,0 +1,8 @@
+build:
+  docker:
+    web: Dockerfile
+  config: 
+    WORK_DIR: app
+    API_URL: https://api-heroku-docker.herokuapp.com/
+run:
+  web: yarn run start
